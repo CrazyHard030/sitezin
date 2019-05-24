@@ -1,0 +1,45 @@
+
+#rodape
+{
+    text-align: left;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background: #6699cc;
+    padding-top: 2vmin;
+    padding-bottom: none;
+    padding-left: 2vmin;
+    
+}
+
+#texto 
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20px;
+    padding-top:5vmin;
+    padding-left:30vmin;
+    padding-right: 30vmin;
+    color:#000;
+}
+
+#cont
+{
+    padding-top:5vmin;
+    padding-bottom:5vmin;
+    padding-left:30vmin;
+    padding-right: 30vmin;
+}
+
+#cadastrar
+{
+    padding-top:5vmin;
+    padding-bottom:5vmin;
+    padding-left:25vmin;
+    padding-right: 25vmin;
+}
+
+#sucesso
+{
+    padding:25vmin;
+}

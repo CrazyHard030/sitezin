@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Escola Sofista</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <link rel="icon" href=""/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" href="css/estilocarossel.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css"/>
+        <script src="js/javascript.js"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="fundo">
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6699cc">
+        <img src="img/logofilosofia.png" title="logo" height="5%" width="5%" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="header">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Menu</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Cursos</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="faleconosco.html">Fale Conosco</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="inscricao.html">Cadastrar-se/Logar-se</a>
+            </li>
+        </ul>
+    </div>
+        </nav>
+    </div>
+    <div id="cadastrar">
+<form class="form-horizontal" action='' method="POST">
+    <fieldset>
+      <div id="legend">
+        <legend class="">Cadastrar-se</legend>
+      </div>
+      <div class="control-group">
+        <!-- Usuario -->
+        <label class="control-label"  for="username">Usuario<span style="color: red">*</span></label>
+        <div class="controls">
+          <input type="text" id="username" name="username" placeholder="" class="input-xlarge" required>
+          <p class="help-block"></p>
+        </div>
+      </div>
+   
+      <div class="control-group">
+        <!-- E-mail -->
+        <label class="control-label" for="email">E-mail<span style="color: red">*</span></label>
+        <div class="controls">
+          <input type="email" name="email" autocomplete="off" placeholder="seuemail@exemplo.com" required size="30" maxlength="45">
+          <p class="help-block"></p>
+        </div>
+      </div>
+   
+      <div class="control-group">
+        <!-- Senha-->
+        <label class="control-label" for="password">Senha<span style="color: red">*</span></label>
+        <div class="controls">
+          <input type="password" id="password" name="password" placeholder="" class="input-xlarge" minlength="8" required>
+          <p class="help-block">A senha deve ter no minimo 8 caracteres.</p>
+        </div>
+      </div>
+   
+      <div class="control-group">
+        <!-- Senha -->
+        <label class="control-label"  for="password_confirm">Confirme Sua Senha<span style="color: red">*</span></label>
+        <div class="controls">
+          <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge" minlength="8" required>
+          <p class="help-block">Por favor digite de novo sua senha.</p>
+        </div>
+      </div>
+   
+      <div class="control-group">
+        <!-- Botão -->
+        <div class="controls">
+          <button class="btn btn-success">Registrar-se</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  </div>
+
+<div id="rodape">
+    <footer >
+    <font color="#fff" face="Times">
+        <h5>Contatos:</h5>
+        <dl>
+            <dt>Endereço:</dt>
+            <dd>Rua João Pessoa - Centro, Santos - SP</dd>
+            <dt>E-mail:</dt>
+            <dd><a href="mailto:#">escolasofista@gmail.com</a></dd>
+            <dt>Telefones:</dt>
+            <dd> +55 (13) 9 8751-1489 ou +55 (13) 3430-1056</dd>
+            <br>
+            <dd>Desenvolvedores:Allana Cruz, Pedro Jesus e Pedro Ribas </dd>
+            <dd> Todos os direitos reservados a Escola Sofista © 2010 </dd>
+          </dl>
+        <br>
+    </font>
+    </footer>
+</div>
+</body>
+</html>

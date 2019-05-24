@@ -1,0 +1,14 @@
+    body {
+      position: relative;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 75%;
+      height: 500px;
+    }
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
